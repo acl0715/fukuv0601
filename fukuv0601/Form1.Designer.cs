@@ -38,18 +38,19 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(390, 199);
+            label1.Location = new Point(312, 159);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(55, 15);
             label1.TabIndex = 0;
-            label1.Text = "label1";
+            label1.Text = "C(^ω^C)";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             label1.Click += label1_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(88, 172);
+            button1.Location = new Point(656, 390);
             button1.Name = "button1";
-            button1.Size = new Size(159, 60);
+            button1.Size = new Size(63, 27);
             button1.TabIndex = 1;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
@@ -57,9 +58,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(584, 172);
+            button2.Location = new Point(725, 390);
             button2.Name = "button2";
-            button2.Size = new Size(159, 55);
+            button2.Size = new Size(63, 27);
             button2.TabIndex = 2;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
